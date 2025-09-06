@@ -36,7 +36,7 @@ STEP-5: Display the obtained cipher text.
 
 Program:
 
-'''
+```
 import string
 def create_playfair_table(keyword):
     keyword = keyword.upper().replace('J', 'I')
@@ -105,7 +105,7 @@ print("Plain Text:", plain_text)
 print("Key Value:", key_value)
 print("Encrypted Cipher Text:", cipher_text)
 print("Decrypted Cipher Text:", decrypted_text)
-'''
+```
 
 
 
